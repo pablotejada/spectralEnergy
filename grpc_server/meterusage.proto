@@ -1,0 +1,17 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+
+message MeterUsage {
+    string time = 1;
+    float meterusage = 2;
+}
+
+message MeterUsageResponse {
+    repeated MeterUsage meter_usage = 1;
+}
+
+service MeterUsageService {
+    rpc GetMeterUsage(google.protobuf.Empty) returns (MeterUsageResponse);
+}
+
