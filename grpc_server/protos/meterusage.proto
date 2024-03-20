@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package example;
+
+service MeterUsageService {
+    rpc GetMeterUsage(GetMeterUsageRequest) returns (stream MeterUsage);
+}
+
+message GetMeterUsageRequest {
+    // You can include any necessary fields here
+}
+
+message MeterUsage {
+    string csv_content = 1;
+}

@@ -12,20 +12,19 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-from google.protobuf import empty_pb2 as google_dot_protobuf_dot_empty__pb2
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10meterusage.proto\x1a\x1bgoogle/protobuf/empty.proto\".\n\nMeterUsage\x12\x0c\n\x04time\x18\x01 \x01(\t\x12\x12\n\nmeterusage\x18\x02 \x01(\x02\"6\n\x12MeterUsageResponse\x12 \n\x0bmeter_usage\x18\x01 \x03(\x0b\x32\x0b.MeterUsage2Q\n\x11MeterUsageService\x12<\n\rGetMeterUsage\x12\x16.google.protobuf.Empty\x1a\x13.MeterUsageResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10meterusage.proto\x12\x07\x65xample\"\x16\n\x14GetMeterUsageRequest\"!\n\nMeterUsage\x12\x13\n\x0b\x63sv_content\x18\x01 \x01(\t2Z\n\x11MeterUsageService\x12\x45\n\rGetMeterUsage\x12\x1d.example.GetMeterUsageRequest\x1a\x13.example.MeterUsage0\x01\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'meterusage_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
-  _globals['_METERUSAGE']._serialized_start=49
-  _globals['_METERUSAGE']._serialized_end=95
-  _globals['_METERUSAGERESPONSE']._serialized_start=97
-  _globals['_METERUSAGERESPONSE']._serialized_end=151
-  _globals['_METERUSAGESERVICE']._serialized_start=153
-  _globals['_METERUSAGESERVICE']._serialized_end=234
+  _globals['_GETMETERUSAGEREQUEST']._serialized_start=29
+  _globals['_GETMETERUSAGEREQUEST']._serialized_end=51
+  _globals['_METERUSAGE']._serialized_start=53
+  _globals['_METERUSAGE']._serialized_end=86
+  _globals['_METERUSAGESERVICE']._serialized_start=88
+  _globals['_METERUSAGESERVICE']._serialized_end=178
 # @@protoc_insertion_point(module_scope)
