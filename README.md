@@ -1,17 +1,43 @@
-# spectralEnergy
 
-Write me an README.md file specifying:
 
-creating virtual environment with the command.
+# Meter Usage Application Spectral Energy
 
-Activating it.
+This repository contains the code for a meter usage application consisting of a server and a client component.
 
-Pip install -r requirements.
+## Setup
 
-Then run python meterusage_server.py for the server
+Follow these steps to set up and run the application:
 
-Then python app.py for the client
+### 1. Create Virtual Environment
 
-Then browse localhost:5000
+```bash
+python3 -m venv venv
+```
+## Activate Virtual Environment
+On Windows:
+```bash
+venv\Scripts\activate
+```
 
-Add the code snippets when necessary
+On Unix or MacOS:
+```bash
+source /venv/bin/activate
+```
+
+## Install requirements
+```
+pip install -r requirements.txt
+```
+
+## Run Server
+```bash
+python spectralEnergy/flask_client/app.py
+```
+
+## Run Client
+```bash
+python spectralEnergy/grpc_server/meterusage_server.py
+```
+
+## Browse Application
+Browse [localhost:5000](localhost:5000)
