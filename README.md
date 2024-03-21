@@ -31,12 +31,14 @@ pip install -r requirements.txt
 
 ## Run Server
 ```bash
-python spectralEnergy/flask_client/app.py
+cd  spectralEnergy/grpc_server/meterusage_server.py
+python meterusage_server.py
 ```
 
 ## Run Client
 ```bash
-python spectralEnergy/grpc_server/meterusage_server.py
+cd spectralEnergy/flask_client/
+python app.py
 ```
 
 ## Browse Application
