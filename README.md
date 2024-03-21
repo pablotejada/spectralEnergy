@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ## Run Server
 ```bash
-cd  spectralEnergy/grpc_server/meterusage_server.py
+cd  spectralEnergy/grpc_server/
 python meterusage_server.py
 ```
 
