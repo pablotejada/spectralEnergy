@@ -13,7 +13,7 @@ Follow these steps to set up and run the application:
 ```bash
 python3 -m venv venv
 ```
-## Activate Virtual Environment
+### 2. Activate Virtual Environment
 On Windows:
 ```bash
 venv\Scripts\activate
@@ -24,22 +24,22 @@ On Unix or MacOS:
 source /venv/bin/activate
 ```
 
-## Install requirements
+### 3. Install requirements
 ```
 pip install -r requirements.txt
 ```
 
-## Run Server
+### 4. Run Server
 ```bash
 cd  spectralEnergy/grpc_server/
 python meterusage_server.py
 ```
 
-## Run Client
+### 5. Run Client
 ```bash
 cd spectralEnergy/flask_client/
 python app.py
 ```
 
-## Browse Application
+### 6. Browse Application
 Browse [localhost:5000](localhost:5000)
