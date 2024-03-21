@@ -21,7 +21,7 @@ venv\Scripts\activate
 
 On Unix or MacOS:
 ```bash
-source /venv/bin/activate
+source venv/bin/activate
 ```
 
 ### 3. Install requirements
